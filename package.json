@@ -10,6 +10,7 @@
     "format": "prettier --write \"**/*.{js,cjs,mjs,jsx,ts,tsx,css,json,md,mdx,graphql,gql}\""
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.1",
     "babel-plugin-react-compiler": "^19.0.0-beta-27714ef-20250124",
     "lucide-react": "^0.474.0",
     "next": "15.1.6",
