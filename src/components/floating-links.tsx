@@ -3,9 +3,8 @@ import Link from 'next/link';
 
 export function FloatingLinks({
   className = '',
-  children,
   ...props
-}: React.HTMLAttributes<HTMLElement>) {
+}: Omit<React.HTMLAttributes<HTMLElement>, 'children'>) {
   return (
     <footer
       className={`fixed bottom-12 left-1/2 flex -translate-x-1/2 transform gap-4 ${className}`}
